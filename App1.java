@@ -11,8 +11,8 @@ public class App1 {
             int a=28/0;
             System.out.println("After exception");}
          catch (ArithmeticException e) {
-            System.out.println("in arithmetic");
-            e.printStackTrace();
+            System.out.println("in arithmetic| "+e.getMessage());
+            
             // TODO: handle exception
         }
         catch(Exception e ){
